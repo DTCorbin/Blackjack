@@ -60,5 +60,5 @@ the total and stores that in the second variable for use in the second
 game.
 
 # To Do:
--Reduce the number of global variables
--Implement the behavior of Aces
+- Reduce the number of global variables
+- Implement the behavior of Aces
