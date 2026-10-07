@@ -44,7 +44,7 @@ to 10 because face cards are all worth 10.
 
 **Standing:**
 This function takes in your total and your bet. It compares your
-total in the logical expression 18 < total <21, If you are within
+total in the logical expression *18 < total <21*, If you are within
 that range, you win. The winnings are calculated at a ratio of 3:2
 and you are congratulated. If you lose, It says that you lost your
 bet.
