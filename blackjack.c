@@ -114,9 +114,14 @@ int main () {
         To stand: type q\n\n\
         Please enjoy your game. Good Luck!\n\n");
 
+    bet:
     printf("Please place your bet: ");
-    scanf("%f", &bet);
-    getchar();
+    if (scanf("%f", &bet)!= 1) {
+        puts("Your bet has to be a monetary value.");
+        goto bet;
+    } else{
+        getchar();
+    }
 
     total = deal(deck, total);
     int splitTotal = total;
