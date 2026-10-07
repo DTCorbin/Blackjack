@@ -119,7 +119,7 @@ int main () {
     printf("Please place your bet: ");
     if (scanf("%f", &bet)!= 1) {
         getchar();
-        printf("Your bet has to be a monetary value. Please enter one: ");
+        printf("Your bet has to be a monetary value. ");
         goto bet;
     } else{
         getchar();
