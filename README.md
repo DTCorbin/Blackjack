@@ -72,5 +72,6 @@ the total and stores that in the second variable for use in the second
 game.
 
 # To Do:
+- Input validation on the bet
 - Reduce the number of global variables
 - Implement the behavior of Aces
