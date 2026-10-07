@@ -14,7 +14,7 @@ in their own functions.
 
 ---
 
-**Shuffling**
+**Shuffling:**
 I initialize the deck with 0-47 then I created a function to 
 use a pseudo-random number that determines the position that
 the card will be swapped with. I first started by just using
