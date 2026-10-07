@@ -1,5 +1,5 @@
 # Blackjack
-A small CLI version of Blackjack
+A small CLI version of Blackjack.
 I chose to write this because it is my favorite card game.
 This is also a good exercise for working with arrays. Some 
 may look at the code and be appalled at the use of goto 
