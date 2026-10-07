@@ -114,10 +114,12 @@ int main () {
         To stand: type q\n\n\
         Please enjoy your game. Good Luck!\n\n");
 
+    //getchar is being used to consume the \n from scanf
     bet:
     printf("Please place your bet: ");
     if (scanf("%f", &bet)!= 1) {
-        puts("Your bet has to be a monetary value.");
+        getchar();
+        printf("Your bet has to be a monetary value. Please enter one: ");
         goto bet;
     } else{
         getchar();
