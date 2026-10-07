@@ -10,7 +10,7 @@ of flags and nested loops.
 
 # Implementation
 I implemented most of the different moves that you can take
-in their own functions
+in their own functions.
 
 **Shuffling:**
 I initialize the deck with 0-47 then I created a function to 
