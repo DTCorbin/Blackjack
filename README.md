@@ -71,8 +71,6 @@ specifically for that dynamic, if the splitable flag is 1 then it halves
 the total and stores that in the second variable for use in the second 
 game.
 
----
-
 # To Do:
 - Reduce the number of global variables
 - Implement the behavior of Aces
